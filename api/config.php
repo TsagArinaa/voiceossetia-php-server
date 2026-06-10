@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit();
 }
 
-// session_start();
+session_start();
 
 $host = 'MySQL-8.0';
 $dbname = 'testdb';
